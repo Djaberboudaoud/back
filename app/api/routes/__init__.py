@@ -1,0 +1,12 @@
+from app.api.routes.auth import router as auth_router
+from app.api.routes.companies import router as companies_router
+from app.api.routes.units import router as units_router
+from app.api.routes.users import router as users_router
+from app.api.routes.locations import router as locations_router
+from app.api.routes.case_categories import router as case_categories_router
+from app.api.routes.case_types import router as case_types_router
+from app.api.routes.cases import router as cases_router
+from app.api.routes.saved_searches import router as saved_searches_router
+from app.api.routes.notifications import router as notifications_router
+from app.api.routes.permissions import router as permissions_router
+from app.api.routes.dashboard import router as dashboard_router
