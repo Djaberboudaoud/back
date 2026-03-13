@@ -16,8 +16,8 @@ class Settings(BaseSettings):
     DEBUG: bool = False
 
     # Database
-    DATABASE_URL: str = "postgresql+psycopg2://postgres:192837465@localhost:5432/reporting-system"
-
+    # DATABASE_URL: str = "postgresql://postgres.gcybsjcakekkyvuilcgl:192837465ReportingSystem@aws-1-eu-north-1.pooler.supabase.com:5432/postgres"
+    DATABASE_URL : str="postgresql+psycopg2://postgres.gcybsjcakekkyvuilcgl:192837465ReportingSystem@aws-1-eu-north-1.pooler.supabase.com:6543/postgres"
     # JWT Authentication
     JWT_SECRET_KEY: str = "super-secret-key-change-in-production"
     JWT_ALGORITHM: str = "HS256"
